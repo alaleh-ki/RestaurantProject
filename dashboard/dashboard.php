@@ -34,7 +34,7 @@ $errors = array('title'=>'','ingredients'=>'','price'=>'','image'=>'','category'
 	        </button>
         </div>
 				<div class="p-4 pt-5 nav-head">
-          <h5><a href="index.html" class="logo">    <img src="../pictures/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Hey <?php echo $_SESSION["user"] ?></a></h1>
+          <h5><a href="index.html" class="logo"><img src="../pictures/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Hey <?php echo $_SESSION["user"] ?></a></h1>
 
 	        <ul class="list-unstyled components mb-5 mt-5">
 	          <li class="active">

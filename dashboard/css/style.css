@@ -60,27 +60,7 @@ body {
     box-shadow: none !important; }
   a:not(.btn) {
     text-decoration: underline; }
-  abbr[title]::after {
-    content: " (" attr(title) ")"; }
-  pre {
-    white-space: pre-wrap !important; }
-  pre,
-  blockquote {
-    border: 1px solid #adb5bd;
-    page-break-inside: avoid; }
-  thead {
-    display: table-header-group; }
-  tr,
-  img {
-    page-break-inside: avoid; }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
-  h2,
-  h3 {
-    page-break-after: avoid; }
+
   @page {
     size: a3; }
   body {
@@ -89,26 +69,7 @@ body {
     min-width: 992px !important; }
   .navbar {
     display: none; }
-  .badge {
-    border: 1px solid #000; }
-  .table {
-    border-collapse: collapse !important; }
-    .table td,
-    .table th {
-      background-color: #fff !important; }
-  .table-bordered th,
-  .table-bordered td {
-    border: 1px solid #dee2e6 !important; }
-  .table-dark {
-    color: inherit; }
-    .table-dark th,
-    .table-dark td,
-    .table-dark thead th,
-    .table-dark tbody + tbody {
-      border-color: #dee2e6; }
-  .table .thead-dark th {
-    color: inherit;
-    border-color: #dee2e6; } }
+ }
 
 body {
   font-family: "Poppins", Arial, sans-serif;
@@ -128,28 +89,6 @@ a {
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none; }
-
-
-  button:hover, button:focus {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
-
-
-.heading-section {
-  font-size: 28px;
-  color: #000; }
-  .heading-section small {
-    font-size: 18px; }
-
-.img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
-
-
-
 
 .wrapper {
   width: 100%; }
