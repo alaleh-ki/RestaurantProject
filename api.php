@@ -3,7 +3,7 @@ include('config/db_connect.php');
 
 
 if (isset($_POST["id"])) {
-    //fuck you
+    
     session_start();
     $cart = isset($_SESSION["id"]) ? $_SESSION["id"] : [];
 
